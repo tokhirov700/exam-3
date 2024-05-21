@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/mers.jpg" type="image/x-icon">
+    <title>𝓫𝓸𝔁 𝓬𝓪𝓻𝓼</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,600;1,600&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=PT+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <img src="./images/1.svg" alt="img">
+                    </div>
+                    <div class="header-info">
+                        <a class="info-item" href="">Home</a>
+                        <a class="info-item" href="">Listing</a>
+                        <a class="info-item" href="">Blog</a>
+                        <a class="info-item" href="">Pages</a>
+                        <a class="info-item" href="">About</a>
+                    </div>
+                    <div class="header-sumbit">
+                        <button id="submit-listing"> Submit Listing</button>
+                    </div>
+                </div>
+                <div class="header-form">
+                    <form action="" id="Submit-form">
+                        <label for="">
+                            <input type="text" id="model" placeholder="Model">
+                        </label>
+                        <label  for="">
+                            <input type="text" id="name" placeholder="Name">
+                        </label>
+                        <label for="">
+                            <input type="number" id="year" placeholder="Year">
+                        </label>
+                        <label for="">
+                            <input type="text" id="img" placeholder="img">
+                        </label>
+                        <label for="">
+                            <input type="text" id="color" placeholder="Color">
+                        </label>
+                        <label for="">
+                            <input type="number" id="price" placeholder="Price">
+                        </label>
+                        <label for="">
+                            <input type="number" id="Stock" placeholder="Stock">
+                        </label>
+                        <button type="submit" id="submitBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </header>
+    </main>
+    <div id="delete-input">
+        <label for="">
+            <input id="search" type="text" placeholder="search">
+        </label>
+        <button id="Sort">Sort</button>
+    </div>
+    <section id="section-show">
+       
+    </section>
+<section id="recommend">
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide><img src="https://avtoshark.com/wp-content/uploads/2020/09/mercedes-benz-s550-4matic-coupe.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="https://img3.akspic.ru/attachments/crops/1/3/7/4/34731/34731-mercedes_benz-mercedes_benz_clk_class-avtomobil-lichnyj_roskoshnyj_avtomobil-obod-2560x1440.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="https://www.w-dog.ru/wallpapers/0/9/470448203575345/2014-mercedes-benz-s-500-kupe-amg-velikobritaniya-spec-c217-mersedes.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="https://fotorelax.ru/wp-content/uploads/2015/08/110.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="https://nashi4x4.ru/wp-content/uploads/b/f/9/bf9301ba5a604eaca490b42be0be2af3.jpeg" alt=""></swiper-slide>
+    <swiper-slide><img src="https://wheelfront.com/wp-content/uploads/formidable/8/cls63-amg-with-vossen-cvt-wheels-1.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="http://mb.carwallpapers.ru/mercedes-benz/cls-shooting-brake/2014-63-amg-s-model/Mercedes-Benz-CLS63-AMG-S-Model-Shooting-Brake-2014-2560x1440-022.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="https://cdn.carbuzz.com/gallery-images/1600/366000/300/366385.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="https://sportishka.com/uploads/posts/2023-11/1701180952_sportishka-com-p-mersedes-tsls-banan-oboi-64.jpg" alt=""></swiper-slide>
+  </swiper-container>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
